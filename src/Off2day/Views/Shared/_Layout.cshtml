@@ -8,6 +8,7 @@
         <environment names="Development">
             <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
             <link rel="stylesheet" href="~/lib/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css" />
+            <link href="~/lib/ngreactgrid/css/ngreactgrid.css" rel="stylesheet" />
             <link rel="stylesheet" href="~/css/site.css" />
         </environment>
         <environment names="Staging,Production">
@@ -20,7 +21,7 @@
             <link rel="stylesheet" href="~/css/site.css" asp-file-version="true" />
         </environment>
     </head>
-    <body>
+    <body  ng-app="example">
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -55,6 +56,10 @@
             <script src="~/lib/bootstrap-touch-carousel/dist/js/bootstrap-touch-carousel.js"></script>
             <script src="~/lib/react/react.js"></script>
             <script src="~/React/Hello.jsx"></script>
+            <script src="~/lib/angular/angular.min.js"></script>
+            <script src="~/lib/ngreactgrid/js/ngreactgrid.min.js"></script>
+
+
 
         </environment>
         <environment names="Staging,Production">
